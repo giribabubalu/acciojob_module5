@@ -1,0 +1,73 @@
+* {
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins', sans-serif;
+}
+body,html {
+    height: 100%;
+}
+body {
+    background-image: url("https://scontent.fhyd1-4.fna.fbcdn.net/v/t39.30808-6/301372123_1824764097855024_7089174910228863497_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=qRogoFTt4Z8AX-2Umsf&tn=qgAJxXFXjU4K2sHq&_nc_ht=scontent.fhyd1-4.fna&oh=00_AT_fw6FnkAIzTEjyZBBlnzso_Z7RQEJ7lzkvaK92xYG1gA&oe=63127C31");
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+    color : white;
+    display: inline;
+    font-size: 2.5rem;
+}
+ul > li {
+    color : white;
+    padding : 10px;
+    cursor: pointer;
+    display: inline-flex;
+}
+ul > li > button {
+    color : white;
+    border : solid #00D7FF 2px;
+    padding : 10px;
+    background-color: #00D7FF;
+    cursor: pointer;
+}
+.header {
+    margin-right : 365px;
+    margin-left : 265px;
+}
+.mid-div{
+    padding : 170px;
+    margin-left : 40px;
+}
+.mid-div > h1{
+    color : #00D7FF;
+    padding : 2px;
+    font-size: 4rem;
+}
+.mid-div > h3 {
+    padding : 2px;
+    color : white;
+    margin-bottom: 7px;
+    font-size: 2rem;
+}
+.mid-div > button{
+    color : white;
+    border : solid #00D7FF 2px;
+    padding : 10px;
+    background-color: #00D7FF;
+    cursor: pointer;
+    padding : 20px;
+    width : 330px;
+}
+.mid-div > button > h2 {
+    font-size: 1.5rem;
+}
+span {
+    color : #00D7FF;
+}
+.final-div > ul > li > pre {
+    padding-left : 100px;
+}
+.final-div {
+    background-color: black;
+}
